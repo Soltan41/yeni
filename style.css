@@ -85,3 +85,42 @@ margin: 0;
     font-size: 34px;
     color: #2e3131;
 }
+
+
+.kapital__three__click{
+    width: 280px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff !important;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.kapital__sifarishet{
+    background: #f9fafb;
+    border-radius: 8px;
+}
+.kapital__sifarishet_ichon{
+ 
+    width: 202px;
+    /* height: 168px; */
+    box-shadow: 0 4px 12px hsla(0, 0%, 80%, .45);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}   
+.kapital__sifarishet_img{
+    width: 42px;
+    height: 42px;
+}
+.kapital__sifarishet__flex{
+    display: flex;
+    justify-content: space-between;
+}
