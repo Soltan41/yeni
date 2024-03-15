@@ -1,10 +1,14 @@
 .container{
     max-width: 1300px;
-width: 80%;
+    width: 80%;
+    padding-right: 20px;
+    
     margin-right: auto;
     margin-left: auto;
 }
-
+body{
+    margin: 0;
+}
 
 
 .kapital__head{
@@ -36,10 +40,10 @@ margin: 0;
     font-weight: 700;
 }
 .kapital__kartlat_birbank{
-    
-    /* width: 68px;
-    height: 21px; */
-    background-color: red;
+     height: 32px;
+    min-width: 100px;  
+ 
+    background: #f45369;
     color: white;
     border-radius: 8px;
 }
@@ -67,6 +71,7 @@ margin: 0;
     margin-right: 10px;
 }
 .kapital__three{
+    padding-bottom: 110px;
     background: #e8ecf1;
 }
 .kapital__gelir{
@@ -80,8 +85,196 @@ margin: 0;
 }
 
 .kapital__three__head{
+
+ 
     max-width: 300px;
     font-weight: 550;
     font-size: 34px;
     color: #2e3131;
+}
+
+
+.kapital__three__click{
+    width: 280px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff ;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+
+.kapitalbank_sifarish__imge{
+    width:42px ;
+    height: 42px;
+}
+
+.kapitalbank__sifarish__section{
+    width: 153px;
+    height: 118px;
+    text-align: center;
+
+    box-shadow: 0 4px 12px hsla(0, 0%, 80%, .45);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 24px;
+    text-align: center;
+    display: block;
+    transition: .3s linear;
+}
+
+.kapitalbank__sifarish{
+    margin-top: -76px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.kapitalbank_sifarish__imge{
+    text-align: center;
+}
+
+.kapitalbank__sifarish__paraqraf{
+    font-weight: 400;
+    font-size: 18px;
+    color: #2e3131;
+    margin-bottom: 0
+}
+
+
+.kapitalBank__ment_head{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 14px
+}
+
+.kapitalBank__ment_paraqraf{
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 580px 
+}
+
+.KapitalBank__Birbank_text_red{
+    display: block;
+    color: #f45369;
+    font-family: SourceSansProSemiBold;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    font-weight: 550;
+    
+}
+
+.KapitalBank__Birbank{
+    margin-top: 63px;
+    background-color: #e8ecf1;
+}
+
+.KapitalBank__Birbank__text_paraqra{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.KapitalBank__Birbank__text{
+
+    max-width: 70%;
+    
+
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.KapitalBank__Birbank__relative{
+
+    position: relative;
+padding-bottom: 30px;
+}
+
+.KapitalBank__relative{
+   
+   
+}
+.kapitalBank__position_absolute{
+    
+    position: absolute;
+    right: 69px;
+    bottom: 15px;
+ 
+}
+.loan__text{
+    padding-left: 558px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.loan__text_head{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.loan__text_paraqraf{
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.kapitalbank__mone_textred{
+    display: block;
+    color: #f45369;
+    font-family: SourceSansProSemiBold;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.kapitalbank__mone{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #e8ecf1;
+}
+.kapitalbank__mone_info{
+    padding-top: 53px;
+  /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 418px;
+}
+
+.kapitalbank__mone__click{
+    width: 280px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff ;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.kapitalbank__mone__click_rigt{
+    padding-left: 50px;
+    padding-left: 858px;
+    padding-top: 22px;
+}
+.kapitalbank__mone_relative{
+    position: relative;
+}
+
+
+.kapitalbank__mone_absolute{
+    position: absolute;
+    left: -50px;
+    bottom: 1px
 }
