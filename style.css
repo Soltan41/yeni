@@ -146,7 +146,8 @@ margin: 0;
     font-weight: 400;
     font-size: 18px;
     color: #2e3131;
-    margin-bottom: 0
+    margin-bottom: 0;
+   
 }
 
 
@@ -155,6 +156,7 @@ margin: 0;
     line-height: 45px;
     font-weight: 400;
     margin-bottom: 14px
+
 }
 
 .kapitalBank__ment_paraqraf{
@@ -187,6 +189,7 @@ margin: 0;
 .KapitalBank__Birbank__text{
 
     max-width: 70%;
+    
     
 
     padding-top: 34px;
