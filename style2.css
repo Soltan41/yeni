@@ -1,0 +1,73 @@
+.Kapital_bank_red_and_grey{
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.KapitalBank__grey{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 300px;
+    width: 50%;
+    background-color: #e8ecf1;
+
+    /* padding-top: 40px; */
+    padding-bottom: 45px;
+    padding-left: 7%;
+
+    position: relative;
+}
+
+.Kapitalbank_red{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 300px;
+    width: 50%;
+    background-color: #ef3e42;
+    /* padding-top: 40px; */
+    padding-bottom: 45px;
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.KapitalBank__grey_head{
+    line-height: 1.5;
+    color: #2e3131 ;
+    font-size: 36px ;
+    margin-bottom: 7px;
+    margin-top: 85px;
+}
+.KapitalBank__grey__paraqraf{
+    line-height: 1.5;
+    max-width: 255px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #2e3131 ;
+}
+
+.KapitalBank__grey_imge{
+    width: 200px;
+    height: 288px;
+    position: absolute;
+    bottom: 0;
+    right: 14%;
+}
+.white{
+    line-height: 1.5;
+    color: white;
+    max-width: 255px;
+}
+.KapitalBank__red_imge{
+    width: 200px;
+    height: 224px;
+    position: absolute;
+    bottom: 0;
+    left: 52%;
+}
